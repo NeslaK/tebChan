@@ -1,0 +1,20 @@
+{
+    "name": "neslak/teb-chan",
+    "description": "Forum obrazkowe",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "NeslaK\\TebChan\\": "class/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Antoni Barkowski",
+            "email": "antoni.barkowski@teb.edu.pl"
+        }
+    ],
+    "require": {
+        "steampixel/simple-php-router": "^0.7.1",
+        "smarty/smarty": "^5.4"
+    }
+}
